@@ -1,10 +1,8 @@
-package lincs.drexel.edu.ap;
+package ap;
 
 import java.io.IOException;
 import java.util.HashMap;
 
-import lincs.drexel.edu.ap.ExemplarFinder;
-import lincs.drexel.edu.writables.DocScores;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -18,6 +16,10 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+
+import writables.DocScores;
+
+import ap.ExemplarFinder;
 
 public class ExemplarFinder{
 	

@@ -1,11 +1,10 @@
-package lincs.drexel.edu.ap;
+package ap;
 
 import java.io.IOException;
 
 import java.util.HashMap;
 import java.util.Iterator;
 
-import lincs.drexel.edu.ap.ClusterFinder;
 
 
 import org.apache.hadoop.conf.Configuration;
@@ -20,6 +19,8 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+
+import ap.ClusterFinder;
 
 public class ClusterFinder {
 	

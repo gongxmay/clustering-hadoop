@@ -1,4 +1,4 @@
-package lincs.drexel.edu.ap;
+package ap;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -14,7 +14,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import lincs.drexel.edu.ap.ClusterGenerator;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -29,6 +28,8 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+
+import ap.ClusterGenerator;
 
 import sun.awt.windows.ThemeReader;
 

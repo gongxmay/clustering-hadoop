@@ -1,4 +1,4 @@
-package lincs.drexel.edu.ap;
+package ap;
 
 import java.io.IOException;
 import java.util.*;

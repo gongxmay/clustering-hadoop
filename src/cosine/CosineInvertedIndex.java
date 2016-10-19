@@ -1,4 +1,4 @@
-package lincs.drexel.edu.cosine;
+package cosine;
 
 import java.io.IOException;
         
